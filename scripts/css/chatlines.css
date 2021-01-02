@@ -1,0 +1,79 @@
+@charset "utf-8";
+* { padding:0px; margin:0px; }
+* html #sitenav { left: 200px; }
+
+/*HTML ENTITIES*/
+body{ font-size: 12px; font-family:arial; color:#FFF; margin:0; padding:0; text-align:left; direction:ltr; }
+img{ border:0; }
+hr { color:#901b4f; }
+h1, h2 { color:#901b4f; }
+a { color:#901b4f; text-decoration: none; }
+a:hover { text-decoration: underline; }
+button { clear:both;width:125px;height:31px;background:#422947;text-align:center;color:#FFFFFF;font-size:11px;font-weight:bold; }
+
+
+/*GENERAL CLASSES*/
+.clearfix { clear:both; }
+.iBlock { display:inline-block; }
+.lFloat { float:left; }
+.rFloat { float:right; }
+.aMiddle { vertical-align:middle; }
+.aBottom { vertical-align:bottom; }
+.msg { color:#901b4f; font-size: 16px; font-weight: bold; }
+.picborder { border: 2px solid #901b4f; }
+.corners { border-radius:15px; }
+.backbutton { border: 1px solid #000; padding:4px; text-align:center;background: #901b4f; color:#fff; font-weight: bold; }
+.aLeft { text-align:left; }
+.smallTxt { font-size: 10px; }
+.pinkTxt { color:#901b4f; }
+.aCentre { text-align:center; }
+.captcha { margin:auto; width:450px; }
+.chars { font-size: 10px; color:#901b4f; vertical-align:top; }
+.shares { margin-top: 10px; margin-left: 5px; }
+.sponbg { background: #F8DAE8; }
+
+/* border: 1px solid #000; */
+
+/*MAIN LAYOUT*/
+#headcontainer { background: url(/images/design/adultwebcams.jpg) repeat-x; line-height:0; }
+#thedate { position:absolute; z-index:1; top:15px; left:660px; font-weight: bold; color: #FFF; }
+#headnav { padding-left:15px; background: #901b4f; color:#fff; height:45px; line-height:45px;}
+#headnav a { font-size: 14px; color:#fff; text-decoration: none; }
+
+#footer { text-align:center; background: #270b17; color:#fff; font-weight: bold; line-height:8; }
+
+#pagebody { padding-left: 200px; padding-right: 200px; background: #b62a69; }
+#pagebody .column { position: relative; float: left; }
+#content { width: 100%; border-radius:25px; background: #fff; min-height:730px; }
+#actualcontent { padding:20px; text-align:center; }
+#actualcontent p { padding:5px; }
+#actualcontent h1 { font-size: 24px; }
+#sitenav { width: 200px; right: 200px; margin-left: -100%; }
+#rhs { width: 200px; margin-right: -200px; }
+
+/* HOME PAGE */
+.indexdircontainer{ width:80%; margin:auto; }
+.directorybox { width:200px; height:70px; display:inline-block; border: 0px solid #000; text-align:left; }
+.foldericon { width:25px; float:left; padding:5px; }
+.dirdescription { float:left; padding:5px; text-align:left; }
+.dirtext { color: #901b4f; text-decoration: none; font-weight: bold; }
+.subtext { font-size: 10px; color: #AAA; text-decoration: none; font-weight: bold; }
+
+/* CHATLINES */
+.chatvideo { border: 5px solid #901b4f; width:460px; height:380px; overflow:hidden; display:inline-block; background: #901b4f; }
+.chatlinessbox { width:150px; margin:10px; vertical-align:top; font-weight: bold; }
+.chatlinessbox img { border: 2px solid #901b4f; border-radius:10px; }
+.clcats { text-align:center; }
+.climg { text-align:center; width:120px; height:120px; display:inline-block; margin:10px; }
+.cldesc { padding:6px; text-align:center; width:272px; height:48px; float:right; text-align:left; vertical-align:top; font-weight: bold; background: #F0C8DA; }
+.cldesc a { font-weight: bolder; }
+.clz { display:inline-block; width:355px; margin:5px; }
+.actualchatline { width:400px; height:120px; display:inline-block; border: 2px solid #901b4f; background: #F0C8DA; color:#000; margin-bottom:4px; }
+.actualchatlineimg { float:left; border-right: 2px solid #901b4f; height:120px; }
+.actualchatlineinfo { position:relative; float:right; text-align:left; width:266px; padding:6px; }
+.chatlinename { font-size: 14px; font-weight: bold; }
+.chatlinenumber{ font-size: 16px; font-weight: bold; }
+.chatlinecomp{ font-size: 9px; }
+.chatlinetype { position:absolute; top:2px; right:2px; z-index:100; }
+
+

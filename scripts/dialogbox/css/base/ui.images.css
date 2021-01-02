@@ -1,0 +1,98 @@
+
+/*  ====================================
+	Gradient Images
+	====================================
+*/
+
+/* Gradients for contents */
+
+.ui-TopToBottom-gradient-content .ui-widget-content,
+.ui-TopToBottom-gradient-content .ui-accordion-content,
+.ui-TopToBottom-gradient-header .ui-accordion-header { 
+	background : url(../../../../jquery-ui-1.7.2/css/base/images/TopToBottomGradient.png);
+	background-repeat: repeat-x;
+	background-position: 0px 0px;}
+
+.ui-50TopTo0Bottom-gradient-content .ui-widget-content,
+.ui-50TopTo0Bottom-gradient-content .ui-accordion-content,
+.ui-50TopTo0Bottom-gradient-header .ui-accordion-header
+{ 	background-image : url(../../../../jquery-ui-1.7.2/css/base/images/50TopTo0BottomGradient.png);
+	background-repeat: repeat-x;
+	background-position : 0px 0px; }
+
+.ui-80TopTo0Bottom-gradient-content .ui-widget-content,
+.ui-80TopTo0Bottom-gradient-content .ui-accordion-content,
+.ui-80TopTo0Bottom-gradient-header .ui-accordion-header
+ { 	background-image : url(../../../../jquery-ui-1.7.2/css/base/images/80TopTo0BottomGradient.png);
+ 	background-repeat: repeat-x;
+ 	background-position : 0px 0px; }
+
+
+.ui-BottomToTop-gradient-content .ui-widget-content,
+.ui-BottomToTop-gradient-content .ui-accordion-content,
+.ui-BottomToTop-gradient-header .ui-accordion-header
+ { 	background-image : url(../../../../jquery-ui-1.7.2/css/base/images/BottomToTopGradient.png);
+ 	background-repeat: repeat-x;
+ 	background-position : 0px 0px; }
+
+/* no image */	
+.ui-no-gradient-content-content .ui-accordion-content,
+.ui-no-gradient-content-header .ui-accordion-header,
+.ui-no-gradient-content-active .ui-accordion-header .ui-state-active
+{
+	background-image: url(../../../../jquery-ui-1.7.2/css/base/none);
+	background-position : 0px 0px;
+}
+
+
+/* Gradients for Headers */
+
+
+
+
+/*  ====================================
+	Icon Images
+	====================================
+*/
+
+/* Gray Icons, 
+
+	Hover and Active Icons are Dark Gray = 45454545 
+	Default State is Medium Gray = 888888
+----------------------------------*/
+
+/* states and images */
+.ui-gray-icons .ui-icon { width: 16px; height: 16px; background-image: url(../../../../jquery-ui-1.7.2/css/base/images/ui-icons_222222_256x240.png)/*{iconsContent}*/; }
+.ui-gray-icons .ui-widget-content .ui-icon {background-image: url(../../../../jquery-ui-1.7.2/css/base/images/ui-icons_222222_256x240.png)/*{iconsContent}*/; }
+.ui-gray-icons .ui-widget-header .ui-icon {background-image: url(../../../../jquery-ui-1.7.2/css/base/images/ui-icons_222222_256x240.png)/*{iconsHeader}*/; }
+.ui-gray-icons .ui-state-default .ui-icon { background-image: url(../../../../jquery-ui-1.7.2/css/base/images/ui-icons_888888_256x240.png)/*{iconsDefault}*/; }
+.ui-gray-icons .ui-state-hover .ui-icon, .ui-state-focus .ui-icon {background-image: url(../../../../jquery-ui-1.7.2/css/base/images/ui-icons_454545_256x240.png)/*{iconsHover}*/; }
+.ui-gray-icons .ui-state-active .ui-icon {background-image: url(../../../../jquery-ui-1.7.2/css/base/images/ui-icons_454545_256x240.png)/*{iconsActive}*/; }
+.ui-gray-icons .ui-state-highlight .ui-icon {background-image: url(../../../../jquery-ui-1.7.2/css/base/images/ui-icons_2e83ff_256x240.png)/*{iconsHighlight}*/; }
+
+/* White Icons, 
+----------------------------------*/
+
+/* states and images */
+.ui-white-icons .ui-icon { width: 16px; height: 16px; background-image: url(../../../../jquery-ui-1.7.2/css/base/images/ui-icons_ffffff_256x240.png)/*{iconsContent}*/; }
+.ui-white-icons .ui-widget-content .ui-icon {background-image: url(../../../../jquery-ui-1.7.2/css/base/images/ui-icons_ffffff_256x240.png)/*{iconsContent}*/; }
+.ui-white-icons .ui-widget-header .ui-icon {background-image: url(../../../../jquery-ui-1.7.2/css/base/images/ui-icons_ffffff_256x240.png)/*{iconsHeader}*/; }
+.ui-white-icons .ui-state-default .ui-icon { background-image: url(../../../../jquery-ui-1.7.2/css/base/images/ui-icons_ffffff_256x240.png)/*{iconsDefault}*/; }
+.ui-white-icons .ui-state-hover .ui-icon, .ui-state-focus .ui-icon {background-image: url(../../../../jquery-ui-1.7.2/css/base/images/ui-icons_cccccc_256x240.png)/*{iconsHover}*/; }
+.ui-white-icons .ui-state-active .ui-icon {background-image: url(../../../../jquery-ui-1.7.2/css/base/images/ui-icons_cccccc_256x240.png)/*{iconsActive}*/; }
+.ui-white-icons .ui-state-highlight .ui-icon {background-image: url(../../../../jquery-ui-1.7.2/css/base/images/ui-icons_cccccc_256x240.png)/*{iconsHighlight}*/; }
+
+
+/* Black Icons, 
+ Black Black #000000 for Hover and Active
+ Dark Black #454545 for Default
+----------------------------------*/
+
+/* states and images */
+.ui-black-icons .ui-icon { width: 16px; height: 16px; background-image: url(../../../../jquery-ui-1.7.2/css/base/images/ui-icons_000000_256x240.png)/*{iconsContent}*/; }
+.ui-black-icons .ui-widget-content .ui-icon {background-image: url(../../../../jquery-ui-1.7.2/css/base/images/ui-icons_000000_256x240.png)/*{iconsContent}*/; }
+.ui-black-icons .ui-widget-header .ui-icon {background-image: url(../../../../jquery-ui-1.7.2/css/base/images/ui-icons_000000_256x240.png)/*{iconsHeader}*/; }
+.ui-black-icons .ui-state-default .ui-icon { background-image: url(../../../../jquery-ui-1.7.2/css/base/images/ui-icons_000000_256x240.png)/*{iconsDefault}*/; }
+.ui-black-icons .ui-state-hover .ui-icon, .ui-state-focus .ui-icon {background-image: url(../../../../jquery-ui-1.7.2/css/base/images/ui-icons_454545_256x240.png)/*{iconsHover}*/; }
+.ui-black-icons .ui-state-active .ui-icon {background-image: url(../../../../jquery-ui-1.7.2/css/base/images/ui-icons_454545_256x240.png)/*{iconsActive}*/; }
+.ui-black-icons .ui-state-highlight .ui-icon {background-image: url(../../../../jquery-ui-1.7.2/css/base/images/ui-icons_454545_256x240.png)/*{iconsHighlight}*/; }

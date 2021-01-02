@@ -1,0 +1,320 @@
+@charset "utf-8";
+* { padding:0px; margin:0px; }
+* html #sitenav { left: 200px; }
+
+/*HTML ENTITIES*/
+body{ overflow-y:scroll; background:#270b17; font-size: 12px; font-family:arial; color:#000; margin:0; padding:0; text-align:left; direction:ltr; }
+img{ border:0; }
+hr { color:#901b4f; }
+h1, h2 { color:#901b4f; }
+a { color:#901b4f; text-decoration: none; }
+a:hover { text-decoration: underline; }
+button { clear: both; width: 125px; height: 31px; background: #422947; text-align: center; color: #FFFFFF; font-size: 11px; font-weight: bold; cursor: hand; cursor: pointer; }
+
+
+/*GENERAL CLASSES*/
+.clearfix { clear:both; }
+.iBlock { display:inline-block; }
+.lFloat { float:left; }
+.rFloat { float:right; }
+.aMiddle { vertical-align:middle; }
+.aBottom { vertical-align:bottom; }
+.msg { color:#901b4f; font-size: 16px; font-weight: bold; }
+.picborder { border: 2px solid #901b4f; }
+.corners { border-radius:15px; }
+.backbutton { border: 1px solid #000; padding:4px; text-align:center;background: #901b4f; color:#fff; font-weight: bold; }
+.aLeft { text-align:left; }
+.smallTxt { font-size: 10px; }
+.pinkTxt { color:#901b4f; }
+.aCentre { text-align:center; }
+.captcha { margin:auto; width:450px; }
+.chars { font-size: 10px; color:#901b4f; vertical-align:top; }
+.shares { margin-top: 10px; margin-left: 5px; }
+.sponlistings { margin-top: 10px; margin-left: 5px; margin-right:10px; color:#FFF; text-align:justify; }
+.sponlistings a { color:#FFF; font-weight: bold; }
+.sponlistings hr { color:#FFF; }
+.sponbg { background: #F8DAE8; }
+.hideme { display:none; }
+.show { display: block; }
+.hide { display: none; }
+.twitfeed { width: 188px; margin: auto; padding: 5px 0px 6px 0px; }
+.srchwrd { color: #F00; text-decoration: underline; font-weight: bold; }
+.navlogin { height: 126px; padding: 5px; }
+.navlogin label { margin: 5px; font-size: 12px; font-weight: bold; color: #FFF; }
+.navlogin input { margin: 5px; width: 170px; height: 20px; border: 1px solid #901b4f; border-radius: 2px; color: #47132a; }
+.navlogin button { margin: 5px; font-size: 10px; width: 54px; padding: 2px; border: 1px solid #fff; border-radius: 2px; height: 24px; }
+.navlogout { padding: 10px; }
+.navlogout a { font-weight: bold; }
+.handy { cursor: hand; cursor: pointer; color:#901b4f; }
+/* border: 1px solid #000; */
+
+/*MAIN LAYOUT*/
+#headcontainer { background: url(/images/design/adultwebcams.jpg) repeat-x; line-height:0; }
+#thedate { position:absolute; z-index:1; top:15px; left:660px; font-weight: bold; color: #FFF; }
+#headnav { padding-left:15px; background: #901b4f; color:#fff; height:45px; line-height:45px;}
+#headnav a { font-size: 14px; color:#fff; text-decoration: none; }
+
+#footer { text-align:center; background: #270b17; color:#fff; font-weight: bold; }
+
+#pagebody { padding-left: 200px; padding-right: 200px; background: #b62a69; }
+#pagebody .column { position: relative; float: left; }
+#content { width: 100%; border-radius:25px; background: #fff; min-height:730px; }
+#actualcontent { padding:20px; text-align:center; }
+#actualcontent p { padding:5px; }
+#actualcontent h1 { font-size: 24px; }
+#sitenav { width: 200px; right: 200px; margin-left: -100%; }
+#rhs { width: 200px; margin-right: -200px; }
+#twitfollow { width: 175px; margin: auto; }
+
+/* NAV */
+.no1header { font-size: 14px; font-weight: bold; color: #000; text-align: center; padding: 5px; }
+.navheader { font-size: 14px; font-weight: bold; color: #FFF; background: #47132a; text-align: center; padding: 5px; }
+#jQ-menu ul {list-style-type: none;padding-left: 10px; padding: 6px; }
+#jQ-menu a, #jQ-menu li { color: #fff; text-decoration: none; padding-bottom: 3px; font-weight: normal; }
+
+/* SEARCH BOX */
+#searchbox { height: 38px; padding:5px; }
+#searchbox2 { height: 58px; padding:5px; }
+#srchinput { display: inline-block; }
+#srchinput input { width: 158px; height: 20px; border: 1px solid #901b4f; border-radius: 2px; color: #47132a; }
+#srchbtton { display: inline-block; }
+#srchbtton button { clear: both; width: 25px; height: 20px; background:#422947; border: 1px solid #FFF; border-radius: 2px; color: #FFFFFF; font-weight: bold; cursor: hand; cursor: pointer; -webkit-box-align: center; -moz-box-align: center; -o-box-align: center; box-align: center; }
+#searchdir { padding-bottom: 2px; font-weight: bold; color: #FFF; }
+#srchtrms { padding-top: 2px; font-weight: bold; color: #FFF; }
+
+/* INTERNATIONAL NUMBERS */
+#intnums { padding: 5px; font-weight: bold; color: #FFF; }
+.sidenum { padding: 5px; }
+
+/* HOME PAGE */
+.indexdircontainer{ width:80%; margin:auto; }
+.directorybox { width:200px; height:70px; display:inline-block; border: 0px solid #000; text-align:left; }
+.foldericon { width:25px; float:left; padding:5px; }
+.dirdescription { float:left; padding:5px; text-align:left; }
+.dirtext { color: #901b4f; text-decoration: none; font-weight: bold; }
+.subtext { font-size: 10px; color: #AAA; text-decoration: none; font-weight: bold; }
+
+/* DATING */
+.datingbox{ width:22%; margin:10px; vertical-align:top; }
+
+/* GALLERIES */
+.galleriesbox { width:150px; margin:10px; vertical-align:top; font-weight: bold; }
+.galleriesbox img { border: 2px solid #901b4f; border-radius:10px; }
+
+/* CONTACT */
+.emailsform {margin:0 auto;padding:14px;width:620px;border: 1px solid #000;}
+#emails label {display:block;font-weight:bold;text-align:right;width:160px;float:left;}
+#emails .small {color:#666666;display:block;font-size:11px;font-weight:normal;text-align:right;width:160px;}
+#emails input {float:left;font-size:12px;padding:4px 2px;border:solid 1px #000;width:400px;margin:2px 0 20px 10px;}
+#emails button {clear:both;width:125px;height:31px;background:#422947;text-align:center;color:#FFFFFF;font-size:11px;font-weight:bold;}
+#emails textarea {font-size:12px;padding:4px 2px;border:solid 1px #000;width:400px;margin:2px 0 10px -32px;}
+#emails select {float:left;font-size:12px;padding:4px 2px;border:solid 1px #000;width:400px;margin:2px 0 20px 10px;}
+
+/* CHATLINES */
+.chatvideo { border: 5px solid #901b4f; width:460px; height:380px; overflow:hidden; display:inline-block; background: #901b4f; }
+.chatlinessbox { width:150px; margin:10px; vertical-align:top; font-weight: bold; }
+.chatlinessbox img { border: 2px solid #901b4f; border-radius:10px; }
+.clcats { text-align:center; }
+.climg { text-align:center; width:120px; height:120px; display:inline-block; margin:10px; }
+.cldesc { padding:6px; text-align:center; width:272px; height:48px; float:right; text-align:left; vertical-align:top; font-weight: bold; background: #F0C8DA; }
+.cldesc a { font-weight: bolder; }
+.clz { display:inline-block; width:355px; margin:5px; }
+.actualchatline { width:400px; height:120px; display:inline-block; border: 2px solid #901b4f; background: #F0C8DA; margin:4px; }
+.actualchatlineimg { float:left; border-right: 2px solid #901b4f; height:120px; }
+.actualchatlineinfo { position:relative; float:right; text-align:left; width:266px; padding:6px; }
+.chatlinename { font-size: 14px; font-weight: bold; }
+.chatlinenumber{ font-size: 16px; font-weight: bold; }
+.chatlinecomp{ font-size: 9px; }
+.chatlinetype { position:absolute; top:2px; right:2px; z-index:100; }
+.arabianflags { width:22px; height:13px; border:1px solid #000; vertical-align:middle; }
+
+/* ADD LISTING PAGE */
+.addlistinginfo { text-align:left; padding:5px; width:92%; margin:auto; }
+.addlistingheader { border: 1px solid #000; padding:5px; background: #901b4f; color:#fff; font-weight: bold; font-size: 16px; }
+.topline { border-top: 2px solid #901b4f; width:60%; margin:auto; }
+.tengap { margin:10px; }
+.addmorepic { display:inline-block; margin:10px; }
+.addlistingform {margin:0 auto;padding:14px;width:620px;border: 1px solid #000;}
+#addlisting label {display:block;font-weight:bold;text-align:right;width:160px;float:left;}
+#addlisting .small {color:#666666;display:block;font-size:11px;font-weight:normal;text-align:right;width:160px;}
+#addlisting input {float:left;font-size:12px;padding:4px 2px;border:solid 1px #000;width:400px;margin:2px 0 20px 10px;}
+#addlisting button {clear:both;width:125px;height:31px;background:#422947;text-align:center;color:#FFFFFF;font-size:11px;font-weight:bold;}
+#addlisting textarea {font-size:12px;padding:4px 2px;border:solid 1px #000;width:400px;margin:2px 0 10px -32px;}
+#addlisting select {float:left;font-size:12px;padding:4px 2px;border:solid 1px #000;width:400px;margin:2px 0 20px 10px;}
+/* DIALOG BOX */
+#dialog .ui-widget { font-family: inherit; }
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited { color: #ffffff; }
+.ui-widget-header { font-size: 16px; font-weight: bold; font-family: Arial; background: #901b4f; border: 1px solid #000; }
+.ui-dialog-title { line-height: 12px; color: #ffffff; font-weight: bold; }
+.ui-widget-content { font-size: 12px; font-weight: bold; font-family: Arial; background: #eeeeee; border: 1px solid #000; }
+/* tab panel bounding box */ 
+.ui-dialog-content { font-family: Arial; color: #333333; font-size: 12px; padding: 10px; } 
+.ui-dialog-buttonpane { font-size: 12px; }
+.jpgonly { font-weight: bold; text-decoration: underline; color: #901b4f; font-size: 14px; }
+
+/* LOGIN PAGE */
+.loginform {margin:0 auto;padding:14px;width:620px;border: 1px solid #000;}
+#login label {display:block;font-weight:bold;text-align:right;width:140px;float:left;}
+#login .small {color:#666666;display:block;font-size:11px;font-weight:normal;text-align:right;width:140px;}
+#login input {float:left;font-size:12px;padding:4px 2px;border:solid 1px #000;width:400px;margin:2px 0 20px 10px;}
+#login button {clear:both;width:125px;height:31px;background:#422947;text-align:center;color:#FFFFFF;font-size:11px;font-weight:bold;}
+#login textarea {font-size:12px;padding:4px 2px;border:solid 1px #000;width:400px;margin:2px 0 10px -32px;}
+#login select {float:left;font-size:12px;padding:4px 2px;border:solid 1px #000;width:400px;margin:2px 0 20px 10px;}
+
+/* ADD WEBSITE FORM */
+.addwebsiteform {margin:0 auto;padding:14px;width:620px;border: 1px solid #000;}
+#addwebsite label {display:block;font-weight:bold;text-align:right;width:160px;float:left;}
+#addwebsite .small {color:#666666;display:block;font-size:11px;font-weight:normal;text-align:right;width:160px;}
+#addwebsite input {float:left;font-size:12px;padding:4px 2px;border:solid 1px #000;width:340px;margin:2px 0 20px 10px;}
+#addwebsite button {clear:both;width:125px;height:31px;background:#422947;text-align:center;color:#FFFFFF;font-size:11px;font-weight:bold;}
+#addwebsite textarea {float:left;font-size:12px;padding:4px 2px;border:solid 1px #000;width:340px;margin:2px 0 10px 10px;}
+#addwebsite select {float:left;font-size:12px;padding:4px 2px;border:solid 1px #000;width:340px;margin:2px 0 20px 10px;}
+
+/* ADD PIC FORM */
+.addpicform {margin:0 auto;padding:14px;width:600px;border: 1px solid #000;}
+#addpic label {display:block;font-weight:bold;text-align:right;width:220px;float:left;}
+#addpic .small {color:#666666;display:block;font-size:11px;font-weight:normal;text-align:right;width:220px;}
+#addpic input {float:left;font-size:12px;padding:4px 2px;border:solid 1px #000;width:200px;margin:2px 0 20px 10px;}
+#addpic button {clear:both;width:125px;height:31px;background:#422947;text-align:center;color:#FFFFFF;font-size:11px;font-weight:bold;}
+
+/* DIRECTORIES */
+.dirmenu {text-align:center; }
+.dirmenu a { margin: 2px; border: 1px solid #000; padding:2px 20px 2px 20px; display:inline-block; text-align:center; width:150px; background: #901b4f; color:#fff; font-weight: bold; text-decoration: none; }
+.otherdirectories { display:inline-block; text-align:left; width:200px; padding-bottom:5px; }
+.otherdirectories a { color:#000; text-decoration: none; font-size: 10px; font-weight: normal; }
+.dirlisting { width:800px; margin:10px auto 5px auto; border: 1px solid #000; text-align:left; height:100px; overflow:hidden; }
+.dirlistpic { float:left; border-right: 1px solid #000; height:100px; width:100px; }
+.dirinfo { float:right; padding:5px; width:684px; }
+.dirinfo a { font-weight: bold; text-decoration: none; color:#901b4f; font-size: 14px;  }
+.flagpic { border: 1px solid #000; margin-bottom:4px; margin-top:4px; vertical-align:middle; }
+.globepic { margin-bottom:4px; margin-top:4px; vertical-align:middle; }
+
+/* Nav Options/Icons */
+.dirnavoptions { font-weight: bold; }
+.firstn { vertical-align:bottom; background-position:-72px -0px; background-image:url(/images/directories/pagingicons.png); background-repeat:no-repeat; display:inline-block; height:16px; width:16px; }
+.firsto { vertical-align:bottom; background-position:-48px -0px; background-image:url(/images/directories/pagingicons.png); background-repeat:no-repeat; display:inline-block; height:16px; width:16px; }
+.prevn { vertical-align:bottom; background-position:-72px -48px; background-image:url(/images/directories/pagingicons.png); background-repeat:no-repeat; display:inline-block; height:16px; width:16px; }
+.prevo { vertical-align:bottom; background-position:-48px -48px; background-image:url(/images/directories/pagingicons.png); background-repeat:no-repeat; display:inline-block; height:16px; width:16px; }
+.nextn { vertical-align:bottom; background-position:-72px -32px; background-image:url(/images/directories/pagingicons.png); background-repeat:no-repeat; display:inline-block; height:16px; width:16px; }
+.nexto { vertical-align:bottom; background-position:-48px -32px; background-image:url(/images/directories/pagingicons.png); background-repeat:no-repeat; display:inline-block; height:16px; width:16px; }
+.lastn { vertical-align:bottom; background-position:-72px -16px; background-image:url(/images/directories/pagingicons.png); background-repeat:no-repeat; display:inline-block; height:16px; width:16px; }
+.lasto { vertical-align:bottom; background-position:-48px -16px; background-image:url(/images/directories/pagingicons.png); background-repeat:no-repeat; display:inline-block; height:16px; width:16px; }
+.fiven { vertical-align:bottom; background-position:-24px -0px; background-image:url(/images/directories/pagingicons.png); background-repeat:no-repeat; display:inline-block; height:16px; width:16px; }
+.fiveo { vertical-align:bottom; background-position:-0px -0px; background-image:url(/images/directories/pagingicons.png); background-repeat:no-repeat; display:inline-block; height:16px; width:16px; }
+.tenn { vertical-align:bottom; background-position:-24px -16px; background-image:url(/images/directories/pagingicons.png); background-repeat:no-repeat; display:inline-block; height:16px; width:16px; }
+.teno { vertical-align:bottom; background-position:-0px -16px; background-image:url(/images/directories/pagingicons.png); background-repeat:no-repeat; display:inline-block; height:16px; width:16px; }
+.twenn { vertical-align:bottom; background-position:-24px -32px; background-image:url(/images/directories/pagingicons.png); background-repeat:no-repeat; display:inline-block; height:16px; width:16px; }
+.tweno { vertical-align:bottom; background-position:-0px -32px; background-image:url(/images/directories/pagingicons.png); background-repeat:no-repeat; display:inline-block; height:16px; width:16px; }
+.fiftyn { vertical-align:bottom; background-position:-24px -48px; background-image:url(/images/directories/pagingicons.png); background-repeat:no-repeat; display:inline-block; height:16px; width:16px; }
+.fiftyo { vertical-align:bottom; background-position:-0px -48px; background-image:url(/images/directories/pagingicons.png); background-repeat:no-repeat; display:inline-block; height:16px; width:16px; }
+.alphan { vertical-align:bottom; background-position:-24px -64px; background-image:url(/images/directories/pagingicons.png); background-repeat:no-repeat; display:inline-block; height:16px; width:16px; }
+.alphao { vertical-align:bottom; background-position:-0px -64px; background-image:url(/images/directories/pagingicons.png); background-repeat:no-repeat; display:inline-block; height:16px; width:16px; }
+.numbn { vertical-align:bottom; background-position:-24px -80px; background-image:url(/images/directories/pagingicons.png); background-repeat:no-repeat; display:inline-block; height:16px; width:16px; }
+.numbo { vertical-align:bottom; background-position:-0px -80px; background-image:url(/images/directories/pagingicons.png); background-repeat:no-repeat; display:inline-block; height:16px; width:16px; }
+.upn { vertical-align:bottom; background-position:-72px -64px; background-image:url(/images/directories/pagingicons.png); background-repeat:no-repeat; display:inline-block; height:16px; width:16px; }
+.upo { vertical-align:bottom; background-position:-48px -64px; background-image:url(/images/directories/pagingicons.png); background-repeat:no-repeat; display:inline-block; height:16px; width:16px; }
+.dwnn { vertical-align:bottom; background-position:-72px -80px; background-image:url(/images/directories/pagingicons.png); background-repeat:no-repeat; display:inline-block; height:16px; width:16px; }
+.dwno { vertical-align:bottom; background-position:-48px -80px; background-image:url(/images/directories/pagingicons.png); background-repeat:no-repeat; display:inline-block; height:16px; width:16px; }
+
+/*Options Icons*/
+.editicon{background-position:-0px -0px;background-image:url(/images/cpicons.png);background-repeat:no-repeat;display:inline-block;height:20px;width:20px;vertical-align:middle;}
+.deleteicon{background-position:-0px -20px;background-image:url(/images/cpicons.png);background-repeat:no-repeat;display:inline-block;height:20px;width:20px;vertical-align:middle;}
+.nacticon{background-position:-0px -40px;background-image:url(/images/cpicons.png);background-repeat:no-repeat;display:inline-block;height:20px;width:20px;vertical-align:middle;}
+.acticon{background-position:-0px -60px;background-image:url(/images/cpicons.png);background-repeat:no-repeat;display:inline-block;height:20px;width:20px;vertical-align:middle;}
+.oldicon{background-position:-0px -80px;background-image:url(/images/cpicons.png);background-repeat:no-repeat;display:inline-block;height:20px;width:20px;vertical-align:middle;}
+.newicon{background-position:-0px -100px;background-image:url(/images/cpicons.png);background-repeat:no-repeat;display:inline-block;height:20px;width:20px;vertical-align:middle;}
+.picsicon{background-position:-0px -120px;background-image:url(/images/cpicons.png);background-repeat:no-repeat;display:inline-block;height:20px;width:20px;vertical-align:middle;}
+.npicicon{background-position:-0px -140px;background-image:url(/images/cpicons.png);background-repeat:no-repeat;display:inline-block;height:20px;width:20px;vertical-align:middle;}
+
+/* Profile Listing Boxes */
+.listingBox { width:800px; height:268px; border: 1px solid #000; text-align:center; margin:auto; overflow:hidden; }
+.profileimage { float:right; border-left: 1px solid #000; border-bottom: 200px solid #000; }
+.profileimage img { display: block; }
+.profiledetails { text-align:left; padding:4px; width:590px; }
+.descriptionheader { border: 1px solid #000; padding:5px; background: #901b4f; color:#fff; font-weight: bold; }
+.descriptionbox { width:802px; margin:auto; }
+.smallheader { margin-bottom:8px; width:110px; border: 1px solid #000; padding:4px; background: #901b4f; color:#fff; font-weight: bold; }
+.listdetails { margin-bottom:8px; width:456px; padding:4px; border: 1px solid #eee; }
+.smalllistdetails { margin-bottom:8px; width:160px; padding:4px; border: 1px solid #eee; }
+.descriptiondets { border: 1px solid #eee; margin-top: 8px; text-align:left; padding:4px; }
+
+/*Add Chatline Page*/
+.addchatlineform {margin:0 auto;padding:14px;width:600px;border: 1px solid #000;}
+#addchatline label {display:block;font-weight:bold;text-align:right;width:160px;float:left;}
+#addchatline .small {color:#666666;display:block;font-size:11px;font-weight:normal;text-align:right;width:160px;}
+#addchatline select {float:left;font-size:12px;padding:4px 2px;border:solid 1px #000;width:400px;margin:2px 0 20px 10px;}
+#addchatline input {float:left;font-size:12px;padding:4px 2px;border:solid 1px #000;width:400px;margin:2px 0 20px 10px;}
+#addchatline button {clear:both;width:125px;height:31px;background:#422947;text-align:center;color:#FFFFFF;font-size:11px;font-weight:bold;}
+#addchatline textarea {font-size:12px;padding:4px 2px;border:solid 1px #000;width:400px;margin:2px 0 10px -14px;}
+
+/*Chatline Manager Page*/
+.chatmanagerform {margin:0 auto;padding:14px;width:98%;border: 1px solid #000;}
+#chatmanager label {display:block;font-weight:bold;text-align:right;width:160px;float:left;}
+#chatmanager .small {color:#666666;display:block;font-size:11px;font-weight:normal;text-align:right;width:160px;}
+#chatmanager select {font-size:12px;padding:4px 2px;border:solid 1px #000;width:120px;}
+#chatmanager input {float:left;font-size:12px;padding:4px 2px;border:solid 1px #000;width:200px;margin:2px 0 20px 10px;}
+#chatmanager button {clear:both;width:125px;height:31px;background:#422947;text-align:center;color:#FFFFFF;font-size:11px;font-weight:bold;}
+#chatmanager textarea {font-size:12px;padding:4px 2px;border:solid 1px #000;width:400px;margin:2px 0 10px 0px;}
+
+/*Room Manager Page*/
+#roomadmin {margin:0 auto;padding:14px;border: 1px solid #000;width:640px;}
+.roombox {width:460px;border: 1px solid #000; display:inline-block; margin:4px; }
+.roompic {float:left;border-right: 1px solid #000;padding:4px;}
+.roomname {float:left;text-align:left;}
+.roomdesc {float:left;text-align:left;width:320px;padding:4px;}
+.roomoptions {float:right;width:40px;text-align:right;padding:4px;}
+.roomdesc h2 {display:inline;}
+
+
+/* CONTROLPANEL */
+/* Directories Pages */
+.diroptionsform {margin:0 auto;padding:14px;width:800px;border: 1px solid #000;}
+#diroptions label {display:block;font-weight:bold;text-align:right;width:160px;float:left;}
+#diroptions .small {color:#666666;display:block;font-size:11px;font-weight:normal;text-align:right;width:160px;}
+#diroptions select {font-size:12px;padding:4px 2px;border:solid 1px #000;width:80px;}
+#diroptions input {float:left;font-size:12px;padding:4px 2px;border:solid 1px #000;width:200px;margin:2px 0 20px 10px;}
+#diroptions button {clear:both;width:125px;height:31px;background:#422947;text-align:center;color:#FFFFFF;font-size:11px;font-weight:bold;}
+#diroptions textarea {font-size:12px;padding:4px 2px;border:solid 1px #000;width:400px;margin:2px 0 10px 0px;}
+.listingbox { width:400px; height:90px; border:solid 1px #901b4f; display:inline-block; margin:10px; }
+.listingdetails { float:left; width:320px; text-align:left; padding:2px; }
+.listingoptions { float:right; width:64px; text-align:right; padding:2px; }
+.activebg { background: #E6FFDF; }
+.inactivebg { background: #FFECEC; }
+.norecip { background: #FFF4CA; }
+
+/* Sponsored Pages */
+.sponsoredform {margin:0 auto;padding:14px;width:400px;border: 1px solid #000;}
+#sponsored label {display:block;font-weight:bold;text-align:right;width:160px;float:left;}
+#sponsored .small {color:#666666;display:block;font-size:11px;font-weight:normal;text-align:right;width:160px;}
+#sponsored input {float:left;font-size:12px;padding:4px 2px;border:solid 1px #000;width:200px;margin:2px 0 20px 10px;}
+#sponsored checkbox {float:left;font-size:12px;padding:4px 2px;border:solid 1px #000;width:200px;margin:2px 0 20px 10px;}
+#sponsored button {clear:both;width:125px;height:31px;background:#422947;text-align:center;color:#FFFFFF;font-size:11px;font-weight:bold;}
+
+/* CP Option Icons */
+.editicon{cursor: hand; cursor: pointer;background-position:-0px -0px;background-image:url(/images/cp/cpoptionsicons.png);background-repeat:no-repeat;display:inline-block;height:25px;vertical-align:middle;width:25px;margin:2px;}
+.deleteicon{cursor: hand; cursor: pointer;background-position:-0px -25px;background-image:url(/images/cp/cpoptionsicons.png);background-repeat:no-repeat;display:inline-block;height:25px;vertical-align:middle;width:25px;margin:2px;}
+.numicon{cursor: hand; cursor: pointer;background-position:-0px -50px;background-image:url(/images/cp/cpoptionsicons.png);background-repeat:no-repeat;display:inline-block;height:25px;vertical-align:middle;width:25px;margin:2px;}
+.allicon{cursor: hand; cursor: pointer;background-position:-0px -75px;background-image:url(/images/cp/cpoptionsicons.png);background-repeat:no-repeat;display:inline-block;height:25px;vertical-align:middle;width:25px;margin:2px;}
+.activeyicon{cursor: hand; cursor: pointer;background-position:-0px -100px;background-image:url(/images/cp/cpoptionsicons.png);background-repeat:no-repeat;display:inline-block;height:25px;vertical-align:middle;width:25px;margin:2px;}
+.activenicon{cursor: hand; cursor: pointer;background-position:-0px -125px;background-image:url(/images/cp/cpoptionsicons.png);background-repeat:no-repeat;display:inline-block;height:25px;vertical-align:middle;width:25px;margin:2px;}
+.pageyicon{cursor: hand; cursor: pointer;background-position:-0px -150px;background-image:url(/images/cp/cpoptionsicons.png);background-repeat:no-repeat;display:inline-block;height:25px;vertical-align:middle;width:25px;margin:2px;}
+.pagenicon{cursor: hand; cursor: pointer;background-position:-0px -175px;background-image:url(/images/cp/cpoptionsicons.png);background-repeat:no-repeat;display:inline-block;height:25px;vertical-align:middle;width:25px;margin:2px;}
+.bugicon {cursor: hand; cursor: pointer;background-position:-0px -200px;background-image:url(/images/cp/cpoptionsicons.png);background-repeat:no-repeat;display:inline-block;height:25px;vertical-align:middle;width:25px;margin:2px;}
+.bugnicon {cursor: hand; cursor: pointer;background-position:-25px -200px;background-image:url(/images/cp/cpoptionsicons.png);background-repeat:no-repeat;display:inline-block;height:25px;vertical-align:middle;width:25px;margin:2px;}
+.sponyicon {cursor: hand; cursor: pointer;background-position:-0px -225px;background-image:url(/images/cp/cpoptionsicons.png);background-repeat:no-repeat;display:inline-block;height:25px;vertical-align:middle;width:25px;margin:2px;}
+.sponnicon {cursor: hand; cursor: pointer;background-position:-25px -225px;background-image:url(/images/cp/cpoptionsicons.png);background-repeat:no-repeat;display:inline-block;height:25px;vertical-align:middle;width:25px;margin:2px;}
+.flagyicon {cursor: hand; cursor: pointer;background-position:-25px -0px;background-image:url(/images/cp/cpoptionsicons.png);background-repeat:no-repeat;display:inline-block;height:25px;vertical-align:middle;width:25px;margin:2px;}
+.flagnicon {cursor: hand; cursor: pointer;background-position:-25px -25px;background-image:url(/images/cp/cpoptionsicons.png);background-repeat:no-repeat;display:inline-block;height:25px;vertical-align:middle;width:25px;margin:2px;}
+.recipicon {cursor: hand; cursor: pointer;background-position:-25px -50px;background-image:url(/images/cp/cpoptionsicons.png);background-repeat:no-repeat;display:inline-block;height:25px;vertical-align:middle;width:25px;margin:2px;}
+.overyicon {cursor: hand; cursor: pointer;background-position:-25px -75px;background-image:url(/images/cp/cpoptionsicons.png);background-repeat:no-repeat;display:inline-block;height:25px;vertical-align:middle;width:25px;margin:2px;}
+.overnicon {cursor: hand; cursor: pointer;background-position:-25px -100px;background-image:url(/images/cp/cpoptionsicons.png);background-repeat:no-repeat;display:inline-block;height:25px;vertical-align:middle;width:25px;margin:2px;}
+.emailyicon {cursor: hand; cursor: pointer;background-position:-25px -125px;background-image:url(/images/cp/cpoptionsicons.png);background-repeat:no-repeat;display:inline-block;height:25px;vertical-align:middle;width:25px;margin:2px;}
+.emailnicon {cursor: hand; cursor: pointer;background-position:-25px -150px;background-image:url(/images/cp/cpoptionsicons.png);background-repeat:no-repeat;display:inline-block;height:25px;vertical-align:middle;width:25px;margin:2px;}
+.activicon { display: inline-block; height: 25px; vertical-align: middle; width: 25px; margin: 2px; background: #E6FFDF; border:solid 1px #901b4f; }
+.deactivicon { display: inline-block; height: 25px; vertical-align: middle; width: 25px; margin: 2px; background: #FFECEC; border:solid 1px #901b4f; }
+.clkforleg { font-weight: bold; text-decoration: underline; cursor: hand; cursor: pointer; }
+#iconlegend { text-align: left; }
+
+
+
+
